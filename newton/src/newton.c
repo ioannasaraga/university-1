@@ -22,6 +22,10 @@ int main(int argc, char**argv){
     int i;
     double f,f_,f1,y;
     for(i=0;i<1000;i++){
+           if(i==1000){
+            printf("incomplete\n");
+            break;
+        }
          y=x_1;
          f=a_0+a_1*x_1+a_2*pow(x_1,2)+a_3*pow(x_1,3)+a_4*pow(x_1,4)+a_5*pow(x_1,5);
          f_=a_1+(2*a_2*x_1)+(3*a_3*pow(x_1,2))+(4*a_4*pow(x_1,3))+(5*a_5*pow(x_1,4));
@@ -46,28 +50,6 @@ int main(int argc, char**argv){
              break;
         } 
 
-        if(i==999){
-            printf("incomplete\n");
-            break;
-        }
-
-
-
-  
-
-
-
-
     }
     
 }
-
-
-    
-
-
-
-
-    
-    
-    
