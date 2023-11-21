@@ -51,5 +51,9 @@ int main(int argc, char**argv){
         } 
 
     }
+          if(i==1000){
+            printf("incomplete\n");
+            return 0;
+        }
     
 }
